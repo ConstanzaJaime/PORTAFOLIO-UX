@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #f5f5f5;
+    color: #000000;
+    font-family: "Roboto";
+}
+.row {
+    background: #ffffff;
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.space-1 {
+    height: 20px;
+}
+.project{
+    border-radius: 200px;
+    padding: 20px
+}
+.resume {
+padding: 10px;
+}
+.footer {
+    background: #12203e;
+    color: #ffffff;
+    padding:20px;
+}
+
+@media screen and (max-width:768px) {
+    body {
+       background: #000000;
+    }
+} 
