@@ -26,7 +26,7 @@ body {
 } */
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
 }
 
@@ -124,6 +124,7 @@ article {
     padding: 0px !important;
     border: 1px solid;
     border-color: #adadad;
+    margin: 10px; 
 }
 
 /* .stage {
@@ -137,7 +138,7 @@ article {
       transition: color 0.5s linear 0.2s;
   } */
 
-.project {
+.project, .gray-hov {
     padding: 10px;
     text-decoration: none;
     background-color: #ffffff;
@@ -150,7 +151,7 @@ article {
     background-color: #ebebeb;
 } */
 
-.project:hover {
+.project:hover, .gray-hov:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     transition: all .8s ease-in;
@@ -159,10 +160,12 @@ article {
 .gray-hov {
     padding: 20px 0px;
     transition: all .5s ease-in;
+    /* border: 1px solid;
+    border-color: #adadad; */
 }
 
 .gray-hov:hover {
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
     color: #000000;
     transition: all .5s ease-in;
 }
