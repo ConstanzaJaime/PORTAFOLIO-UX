@@ -31,9 +31,14 @@ body {
 }
 
 .footer {
-    background: #ff7777;
+    background: #e0e0e0;
     color: #000000;
     padding: 20px;
+    
+}
+
+.hidden {
+    display:none;
 }
 
 /* @media screen and (max-width:768px) {
@@ -170,6 +175,13 @@ article {
     transition: all .5s ease-in;
 }
 
+.prototype {
+    width: 800px;
+    margin: 20px auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
 /* SECTION */
 /* 

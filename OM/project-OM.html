@@ -15,29 +15,28 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Constanza Jaime</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-b fixed-top ">
+      <a class="navbar-brand" routerLink="/home" routerLinkActive="active" href="../index.html">Constanza Jaime</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+    <div class="all container ">
+      <section class="row justify-content-center">
+          <div class="col-8">
+              <h1>
+                  Upps! Me pillaste trabajando!
+                </h1>
+                <p>
+                  Subiré está página en unos días, por mientras puedes revisar mis otros proyectos!!!
+                </p>
+          </div>
+              <img rel="stylesheet" class="img-fluid col-8" src="../Image/Gatito-en-pc">
+      </section>
     </div>
-  </nav>
+
+
+    <div class="hidden">
   <!-- NOMBRE DE PROYECTO E ICONO DE INSTITUCION -->
   <header>
     <div>
@@ -59,6 +58,7 @@
       </div>
     </div>
   </section>
+
   <!-- INVESTIGACIÓN -->
   <section class="line-om stage">
     <div class="container">
@@ -68,8 +68,8 @@
       </div>
     </div>
   </section>
-  <!-- INVESTIGACIÓN- CONTEXTO -->
   <section class="container">
+    <!-- INVESTIGACIÓN- CONTEXTO -->
     <article>
       <h3 class="om">Contexto</h3>
       <div class="row">
@@ -83,7 +83,7 @@
             Su objetivo principal es servir de apoyo para las familia.
           </p>
         </div>
-        <img rel="stylesheet" class="img-fluid col-4" src="../Image/NOT-IMAGE.png">
+        <!-- <img rel="stylesheet" class="img-fluid col-4" src="../Image/NOT-IMAGE.png"> -->
       </div>
     </article>
     <!-- INVESTIGACIÓN- ENTREVISTA CON EL CLIENTE-->
@@ -94,23 +94,42 @@
           <img rel="stylesheet" class="img-fluid" src="Otras Miradas/OM-Entrevista cliente.jpg">
         </div>
         <div class="col-8">
-
           <p>Al iniciar el proceso de diseño, se tuvo una reunión con el cliente para saber con más detalles de la
             fundación y sus necesidades, ya que además de ser quienes organizan actividades de la fundación, estos
             forman parte de los usuarios
-
             Dentro de los puntos que se destacaron en la reunión con el cliente se destacan:
-
           </p>
           <ul class="col">
             <li>El cliente admite que tiene poco tiempo al igual que otros miembros</li>
-            <li>La mayoría de los padres deben dedicar mucho tiempo al cuidado de sus hijos, especialmente en terapias
+            <li>Los padres deben dedicar mucho tiempo al cuidado de sus hijos, especialmente en terapias
               semanales u otras que necesite según su diagnóstico</li>
             <li>Sienten que el punto fuerte de la página está en la información de las enfermedades</li>
             <li>Algunos padres han visitado hasta 14 terapeutas buscando alguno que pueda ayudar a su hijo</li>
             <li>Tienen talleres, terapias y charlas organizados por ellos</li>
             <li>Tienen contacto con padres del colegio a través del programa PIE</li>
             <li>Hay secciones de la página que admite no utilizar</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+    <!-- INVESTIGACIÓN- ACERCAMIENTO A LOS USUARIOS-->
+    <article>
+      <h3 class="om">Acercamiento a los usuarios</h3>
+      <div class="row">
+        <div class="col-4">
+          <img rel="stylesheet" class="img-fluid" src="Otras Miradas/OM-Entrevista cliente.jpg">
+        </div>
+        <div class="col-8">
+          <p>En esta etapa se habló con apoderadas de la fundación, las cuales hablaron de las dificultades que
+            que enfrentan cada día en el cuidado de los niños y cómo la fundación logra llegar a ellas a través 
+            de su apoyo.
+          </p>
+          <ul class="col">
+            <li>Los padres deben dedicar mucho tiempo al cuidado de sus hijos, especialmente en terapias
+              semanales u otras que necesite según su diagnóstico</li>
+            <li>Algunos padres han visitado hasta 14 terapeutas buscando alguno que pueda ayudar a su hijo</li>
+            <li>Tienen poco acercamiento con la tecnología, por lo que suelen hablar con la administradora de la
+               fundación a través de whatsapp</li>
           </ul>
         </div>
       </div>
@@ -147,12 +166,12 @@
             <li>55% -Testimonios de quienes están o estuvieron en una situación similar</li>
             <li>55% -Talleres y beneficios de la fundación</li>
             <li>30% -Contacto para ayuda</li>
-
           </ul>
         </div>
       </div>
     </article>
   </section>
+
   <!-- SÍNTESIS -->
   <section class="line-om stage">
     <div class="container">
@@ -194,6 +213,7 @@
       </div>
     </article>
   </section>
+
   <!-- IDEACIÓN -->
   <section class="line-om stage">
     <div class="container">
@@ -317,16 +337,16 @@
   </section>
 
   <!-- PROTOTIPADO BAJA -->
-  <section class="line-om stage">
+  <!-- <section class="line-om stage">
     <div class="container">
       <div class="row">
         <img rel="stylesheet" class="img-fluid col-1" src="../Image/Icon-Research.png">
         <h2 class="col-11">Prototipado de baja fidelidad</h2>
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="container">
-     <!-- PROTOTIPADO BAJA- WIREFRAME -->
+    <!-- PROTOTIPADO BAJA- WIREFRAME -->
     <article>
       <div class="row">
         <div class="col-12">
@@ -486,11 +506,21 @@
       </div>
     </article>
   </section>
-
+</div>
   <!-- FOOTER -->
   <footer class="footer">
-    <h3>Footer</h3>
-  </footer>
+      <!-- CONTACTO -->
+      <section class="container">
+        <h5>Contacto</h5>
+        <div class="row">
+          <p class="col">
+            Constanza.jaime.a@gmail.com <br>
+            +56 931 752 751 <br>
+            <a href="https://www.linkedin.com/in/constanzajaime">Link de LinkedIn</a>
+          </p>
+        </div>
+      </section>
+    </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

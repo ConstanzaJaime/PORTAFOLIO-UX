@@ -14,29 +14,13 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Constanza Jaime</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-b fixed-top ">
+      <a class="navbar-brand" routerLink="/home" routerLinkActive="active" href="../index.html">Constanza Jaime</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
   <!-- NOMBRE DE PROYECTO E ICONO DE INSTITUCION -->
   <header>
     <div>
@@ -59,7 +43,11 @@
       </div>
     </div>
   </section>
-
+  <div class="prototype">
+    <iframe style="border: none; " width="800" height="450"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3qgVz6c3hS7Ir4JchvNtam%2FSmart-Homy-Portafolio%3Fnode-id%3D204%253A1743%26scaling%3Dscale-down"
+      allowfullscreen></iframe>
+  </div>
   <!-- INVESTIGACIÓN -->
   <section class="line-sh stage">
     <div class="container">
@@ -74,13 +62,13 @@
     <article>
       <h3 class="sh">Contexto</h3>
       <div class="row">
-        <div class="col-8">
+        <div class="col-12">
           <p>
             Smart Homy es una startup Chileno-India que ofrecen servicios de domótica. Se formaron hace 1 año y hoy en
             día trabajan con 9 fabricantes de dispositivos inteligentes.
           </p>
         </div>
-        <img rel="stylesheet" class="img-fluid col-4" src="../Image/NOT-IMAGE.png">
+        <!-- <img rel="stylesheet" class="img-fluid col-4" src="../Image/NOT-IMAGE.png"> -->
       </div>
     </article>
     <!-- INVESTIGACIÓN- ENTREVISTA CON EL CLIENTE-->
@@ -317,8 +305,8 @@
     </div>
   </section>
 -->
-  
-<!-- IDEACIÓN -->
+
+  <!-- IDEACIÓN -->
   <section class="line-sh stage">
     <div class="container">
       <div class="row">
@@ -525,11 +513,20 @@
 
 
 
-
   <!-- FOOTER -->
   <footer class="footer">
-    <h3>Footer</h3>
-  </footer>
+      <!-- CONTACTO -->
+      <section class="container">
+        <h5>Contacto</h5>
+        <div class="row">
+          <p class="col">
+            Constanza.jaime.a@gmail.com <br>
+            +56 931 752 751 <br>
+            <a href="https://www.linkedin.com/in/constanzajaime">Link de LinkedIn</a>
+          </p>
+        </div>
+      </section>
+    </footer>
 
   <!-- <script src="project-SH.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
