@@ -161,6 +161,12 @@ article {
     transform: scale(1.1);
     transition: all .8s ease-in;
 }
+/* .I-am {
+    background: url(../PORTAFOLIO/Image/DSC02018.jpg)
+}
+.I-am:hover {
+    background: url(../PORTAFOLIO/Image/Yo-Gif.gif)
+} */
 
 .gray-hov {
     padding: 20px 0px;
@@ -214,7 +220,7 @@ article {
     margin: 5px auto;
 }
 
-.fuente {
+.fuente {width="1000" height="562.5"
     margin-top: 2rem;
 }
 
