@@ -11,7 +11,7 @@ body {
     background: #ffffff;
     color: #4f4f4f;
     font-weight: 300;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', 'Merriweather', serif;
 }
 
 .project {
@@ -26,19 +26,25 @@ body {
 } */
 
 .container {
-    width: 100%;
-    max-width: 1000px;
+    width: 90%;
+    max-width: 1400px;
+}
+
+.navbar {
+    background: #fffdfd;
+    color: #000000;
+    /* padding: 20px;
+     */
 }
 
 .footer {
-    background: #e0e0e0;
-    color: #000000;
-    padding: 20px;
-    
+    background: #ff7777;
+    color: #ffffff;
+    text-align: center;
 }
 
 .hidden {
-    display:none;
+    display: none;
 }
 
 /* @media screen and (max-width:768px) {
@@ -64,9 +70,6 @@ h2 {
     font-weight: 400;
 }
 
-.all {
-    margin-top: 50px;
-}
 
 /* COLORES H3 PROYECTOS */
 .pb {
@@ -94,9 +97,9 @@ h2 {
     background: #fff3cf;
 }
 
-.line-about {
+/* .line-about {
     background: #fdebeb;
-}
+} */
 
 
 .hmw {
@@ -110,6 +113,19 @@ h2 {
 
 section {
     padding: 40px 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.first {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 h1,
@@ -129,7 +145,7 @@ article {
     padding: 0px !important;
     border: 1px solid;
     border-color: #adadad;
-    margin: 10px; 
+    margin: 10px;
 }
 
 /* .stage {
@@ -143,7 +159,8 @@ article {
       transition: color 0.5s linear 0.2s;
   } */
 
-.project, .gray-hov {
+.project,
+.gray-hov {
     padding: 10px;
     text-decoration: none;
     background-color: #ffffff;
@@ -156,11 +173,13 @@ article {
     background-color: #ebebeb;
 } */
 
-.project:hover, .gray-hov:hover {
+.project:hover,
+.gray-hov:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     transition: all .8s ease-in;
 }
+
 /* .I-am {
     background: url(../PORTAFOLIO/Image/DSC02018.jpg)
 }

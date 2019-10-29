@@ -9,127 +9,195 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="style01a.css"> OPCION 1 PARA RESPONSIVE-->
   <link rel="stylesheet" href="style.css">
-  <title>Portafolio</title>
+  <link rel="shortcut icon" href="../PORTAFOLIO/Image/Favicon.png" />
+  <title>Constanza Jaime</title>
 
 </head>
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-b fixed-top ">
-    <a class="navbar-brand" routerLink="/home" routerLinkActive="active">Constanza Jaime</a>
+  <nav class="navbar navbar-expand-lg navbar-light navbar navbar-b fixed-top ">
+    <!-- <a class="navbar-brand" routerLink="/home" routerLinkActive="active">Constanza Jaime</a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active mr-3">
-            <a class="nav-link" routerLink="/about" routerLinkActive="active">Sobre Mí <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" routerLink="/skills" routerLinkActive="active">Habilidades</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" routerLink="/projects" routerLinkActive="active">Proyectos</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contacto</a>
-          </li>
-        </ul>
-      </div> -->
+    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- <li class="nav-item active mr-3">
+          <a class="nav-link" routerLink="/about" href="#about" routerLinkActive="active">Sobre Mí <span
+              class="sr-only">(current)</span></a>
+        </li> -->
+        <li class="nav-item mr-3">
+          <a class="nav-link" routerLink="/software" href="#about" routerLinkActive="active">Sobre Mí</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" routerLink="/software" href="#software" routerLinkActive="active">Software</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" routerLink="/projects" href="#project" routerLinkActive="active">Proyectos</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" routerLink="/contact" href="#contact" routerLinkActive="active">Contacto</a>
+        </li>
+      </ul>
+    </div>
   </nav>
-  <div class="all">
+  
+
+    <!-- <section class="container">
+    <img rel="stylesheet" class="img-fluid" src="Image/Post-It UX.png">
+</section> -->
+
+    <section class="container first ml-5 ">
+      <div class="row mb-5">
+        <h1 class="col-12 pb">Constanza Jaime</h1>
+        <h2 class="col-12">UX Designer</h2>
+      </div>
+        <div class="row justify-content-center">
+          <p class="col-12 my-2 py-3 line-pb">
+          "La gente ignora el diseño que ignora a la gente." -- FRANK CHIMERO</p>
+      </div>
 
 
-    <!-- ABOUT ME -->
-    <section class="line-about">
-      <article class="container">
-        <h2 class="pb">Sobre Mi</h2>
-        <div class="row ">
-          <div class="col-6">
-            <p>
-              Hola! <br>
-              Me llamo Constanza,tengo experiencia en el área del diseño y software afines, metodologías ágiles y
-              proyectos colaborativos.
-              Estoy en búsqueda constante de nuevos aprendizajes y experiencias. Muy observadora y amante de la
-              comunicación.
-            </p>
-            <p>
-              Mi objetivo como UX es dar solución a las incomodidades de las personas frente a la tecnología, mejorando
-              su
-              experiencia mediante respuestas prácticas e innovadoras.
-            </p>
-            <p>
-              Me gustaría entregar experiencias memorables a través de mis diseños.
-            </p>
-          </div>
-          <div class="col-6 I-am">
-            <img rel="stylesheet" class="img-fluid" src="Image/DSC02018.jpg">
-            <!-- <img rel="stylesheet" class="img-fluid" src="Image/Yo-Gif.gif"> -->
-          </div>
-        </div>
-      </article>
-    </section>
-    <!-- PROYECTOS -->
-    <section class="container">
-      <header class="header">
-        <h2>Proyectos</h2>
-      </header>
-      <!-- Smart Homy -->
-      <article class="project row">
-        <div class="col-6">
-          <a href="SH/project-SH.html"><img rel="stylesheet" class="img-fluid" src="Image/SH-Mockup.png"></a>
-        </div>
-        <div class="col-6 d-flex align-content-center flex-wrap">
-          <h3>Smart Homy</h3>
-          <p>
-            Evaluación y rediseño de flujo de usuario en la aplicación de Smart Homy, la cual ofrece productos de
-            hogar inteligente.
-          </p>
-        </div>
-      </article>
-      <!-- Papel Bijoux -->
-      <article class="project row">
-        <div class="col-6 d-flex align-content-center flex-wrap">
-          <h3>Papel Bijoux</h3>
-          <p>
-            Propuesta de diseño web para el emprendimiento de joyería en origami de una artesana chilena
-          </p>
-        </div>
-        <div class="col-6">
-          <a href="PB/project-PB.html"><img rel="stylesheet" class="img-fluid" src="Image/PB-Mockup.png"></a>
-        </div>
-      </article>
-      <!-- Otras Miradas -->
-      <article class="project row">
-        <div class="col-6">  
-          <a href="OM/project-OM.html"><img rel="stylesheet" class="img-fluid" src="Image/OM-Mockup.png"></a>
-        </div>
-        <div class="col-6 d-flex align-content-center flex-wrap">
-          <h3>Fundación Otras Miradas</h3>
-          <p>
-            Creación de propuesta de diseño mobile, orientado a madres de niños con algún tipo de necesidad educativa
-            especial.
-          </p>
-        </div>
-      </article>
-    </section>
 
-
-  </div>
-  </div>
-  <footer class="footer">
-    <!-- CONTACTO -->
-    <section class="container">
-      <h5>Contacto</h5>
-      <div class="row">
-        <p class="col">
-          Constanza.jaime.a@gmail.com <br>
-          +56 931 752 751 <br>
-          <a href="https://www.linkedin.com/in/constanzajaime">LinkedIn</a>
+  </section>
+  <hr>
+  <!-- ABOUT ME -->
+  <section id="about" class="container mt-3">
+    <header class="header mt-5">
+      <h2 class="pb">Sobre Mi</h2>
+    </header>
+    <article class="row d-flex justify-content-center mt-5">
+      <div class="col-7 ">
+        <p>
+          Me llamo Constanza, tengo experiencia en el área del diseño y software afines, metodologías ágiles y
+          proyectos colaborativos.
+          Estoy en búsqueda constante de nuevos aprendizajes y experiencias. Muy observadora y amante de la
+          comunicación.
+        </p>
+        <p>
+          Mi objetivo como UX es dar solución a las incomodidades de las personas frente a la tecnología, mejorando
+          su experiencia mediante respuestas prácticas e innovadoras.
+        </p>
+        <p>
+          Me gustaría entregar experiencias memorables a través de mis diseños.
         </p>
       </div>
-    </section>
+      <div class="col-3 I-am">
+        <img rel="stylesheet" class="img-fluid" src="Image/Perfil-foto.png">
+        <!-- <img rel="stylesheet" class="img-fluid" src="Image/Yo-Gif.gif"> -->
+      </div>
+    </article>
+  </section>
+  <hr>
+  <!-- SOFTWARE -->
+  <section id="software" class="container">
+    <header class="header mt-5">
+      <h2 class="pb">Software</h2>
+    </header>
+    <article class="mt-5">
+      <div class="row justify-content-around mt-5">
+        <img rel="stylesheet" class="img-fluid col-2" src="Image/software01.png">
+        <img rel="stylesheet" class="img-fluid col-2" src="Image/software02.png">
+        <img rel="stylesheet" class="img-fluid col-2" src="Image/software03.png">
+      </div>
+      <div class="row justify-content-around mt-5">
+        <img rel="stylesheet" class="img-fluid col-2" src="Image/software04.png">
+        <img rel="stylesheet" class="img-fluid col-2" src="Image/software05.png">
+        <img rel="stylesheet" class="img-fluid col-2" src="Image/software06.png">
+      </div>
+    </article>
+  </section>
+  <hr>
+  <!-- PROYECTOS -->
+  <section id="project" class="container ">
+    <header class="header mt-5">
+      <h2 class="pb">Proyectos</h2>
+    </header>
+    <!-- Smart Homy -->
+    <article class="project row">
+      <div class="col-6">
+        <a href="SH/project-SH.html"><img rel="stylesheet" class="img-fluid" src="Image/SH-Mockup.png"></a>
+      </div>
+      <div class="col-6 d-flex align-content-center flex-wrap">
+        <h3>Smart Homy</h3>
+        <p>
+          Evaluación y rediseño de flujo de usuario en la aplicación de Smart Homy, la cual ofrece productos de
+          hogar inteligente.
+        </p>
+      </div>
+    </article>
+    <!-- Papel Bijoux -->
+    <article class="project row">
+      <div class="col-6 d-flex align-content-center flex-wrap">
+        <h3>Papel Bijoux</h3>
+        <p>
+          Propuesta de diseño web para el emprendimiento de joyería en origami de una artesana chilena
+        </p>
+      </div>
+      <div class="col-6">
+        <a href="PB/project-PB.html"><img rel="stylesheet" class="img-fluid" src="Image/PB-Mockup.png"></a>
+      </div>
+    </article>
+    <!-- Otras Miradas -->
+    <article class="project row">
+      <div class="col-6">
+        <a href="OM/project-OM.html"><img rel="stylesheet" class="img-fluid" src="Image/OM-Mockup.png"></a>
+      </div>
+      <div class="col-6 d-flex align-content-center flex-wrap">
+        <h3>Fundación Otras Miradas</h3>
+        <p>
+          Creación de propuesta de diseño mobile, orientado a madres de niños con algún tipo de necesidad educativa
+          especial.
+        </p>
+      </div>
+    </article>
+  </section>
+  <hr>
+  <!-- CONTACTO -->
+  <section id="contact" class="container">
+    <header class="header mt-5">
+      <h2 class="pb">Contacto</h2>
+    </header>
+    <article class="mt-5 justify-content-center">
+      <div class="row">
+        <div class="col-1">
+          <img rel="stylesheet" class="img-fluid p-2" src="Image/Contacto-01.png">
+        </div>
+        <div class="col-3 d-flex align-items-center">
+          <h5>Constanza.jaime.a@gmail.com</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <img rel="stylesheet" class="img-fluid p-2" src="Image/Contacto-02.png">
+        </div>
+        <h5 class="col-3 d-flex align-items-center">
+          +56 931 752 751
+        </h5>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <img rel="stylesheet" class="img-fluid p-2" src="Image/Contacto-03.png">
+        </div>
+        <h5 class="col-3 d-flex align-items-center">
+          <a href="https://www.linkedin.com/in/constanzajaime">LinkedIn</a>
+        </h5>
+      </div>
+    </article>
+  </section>
+
+  <!-- <section class="container">
+      <div class="row">
+        <img rel="stylesheet" class="img-fluid col-12" src="Image/Post-It UX.png">
+      </div>
+    </section> -->
+
+  <footer class="footer py-2">
+    <div class="container">
+      Creado por Constanza Jaime
+    </div>
   </footer>
 
 
